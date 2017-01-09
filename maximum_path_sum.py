@@ -4,6 +4,7 @@ size= len(f.readlines())
 f = open("triangle.txt","r")
 ar=[[0 for x in range(size)] for y in range(size)]
 
+i=0
 for line in f:
     data = line.split()
     for j in range(len(data)):
@@ -20,3 +21,4 @@ for i in range(size-2,-1,-1):
         ar[i][j]=ar[i][j]+bigger
         
 print(ar[0][0])
+#7273
