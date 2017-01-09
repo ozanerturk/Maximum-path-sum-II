@@ -4,7 +4,6 @@ size= len(f.readlines())
 f = open("triangle.txt","r")
 ar=[[0 for x in range(size)] for y in range(size)]
 
-i=0
 for line in f:
     data = line.split()
     for j in range(len(data)):
